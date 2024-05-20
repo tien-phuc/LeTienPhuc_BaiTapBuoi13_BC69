@@ -19,7 +19,7 @@ document.getElementById("tinhTienLuong").onclick = function () {
 
   document.getElementById(
     "ketQuaBaiTap1"
-  ).innerHTML = `Tiền lương tháng này của bạn là ${tongTienLuong.toLocaleString(
+  ).innerHTML += `Tiền lương tháng này của bạn là ${tongTienLuong.toLocaleString(
     "vi",
     {
       style: "currency",
@@ -56,7 +56,7 @@ document.getElementById("tinhGiaTriTrungBinh").onclick = function () {
 
   document.getElementById(
     "ketQuaBaiTap2"
-  ).innerHTML = `Giá trị trung bình của các số trên là: ${giaTriTrungBinh}`;
+  ).innerHTML += `Giá trị trung bình của các số trên là: ${giaTriTrungBinh}`;
 };
 
 // Bài 3
@@ -83,7 +83,7 @@ document.getElementById("doiRaTien").onclick = function () {
 
   document.getElementById(
     "ketQuaBaiTap3"
-  ).innerHTML = `Số tiền ${doiTien}$ đổi ra tiền Việt là: ${luuTruGiaTri}`;
+  ).innerHTML += `Số tiền ${doiTien}$ đổi ra tiền Việt là: ${luuTruGiaTri}`;
 };
 
 // Bài 4
@@ -112,7 +112,7 @@ document.getElementById("tinh").onclick = function () {
 
   document.getElementById(
     "ketQuaBaiTap4"
-  ).innerHTML = `Diện tích: ${dienTich}, Chu vi: ${chuVi}`;
+  ).innerHTML += `Diện tích: ${dienTich}, Chu vi: ${chuVi}`;
 };
 
 // Bài 5
@@ -139,5 +139,5 @@ document.getElementById("tinhTong2KySo").onclick = function () {
 
   document.getElementById(
     "ketQuaBaiTap5"
-  ).innerHTML = `Tổng ký số của số trên là: ${tong}`;
+  ).innerHTML += `Tổng ký số của số trên là: ${tong}`;
 };
